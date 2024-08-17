@@ -325,7 +325,7 @@
 {#if showIntro}
     <div class="backdrop">
 		<div class="modal">
-			<p>Chuldle은 수도권 전철 역을 맞추는 게임입니다.</p>
+			<p>Chuldle은 수도권 전철역을 맞추는 게임입니다.</p>
 			<p>답이 동작일 때, 행당이라고 입력한 경우 아래와 같이 표시됩니다.</p>
 			<div class="flex justify-center mb-1">
 				{#each calc(process('행당'), process('동작')) as letter}
